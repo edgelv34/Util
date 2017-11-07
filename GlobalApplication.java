@@ -1,7 +1,6 @@
 public class GlobalApplication extends Application {
 
     private AppStatus mAppStatus = AppStatus.FOREGROUND;
-    private static volatile GlobalApplication GLOBAL_INSTANCE = null;
 
     @Override
     public void onCreate() {
