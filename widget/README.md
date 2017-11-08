@@ -33,5 +33,4 @@ JobService 등록
 <service android:name=".SyncJobService"
 	 android:permission="android.permission.BIND_JOB_SERVICE"
 	 android:exported="true"/>
-</receiver>
 ```
