@@ -12,8 +12,8 @@
 * 이 외에 필요한 것들은
 
 Widget 의 receiver 등록 및 setting, meta-data 등록
-<pre>
-<code>
+
+```java
 <receiver android:name=".widget.LMWidget">
 	<intent-filter>
 		<action android:name="android.intent.action.BOOT_COMPLETED"/>
@@ -26,15 +26,12 @@ Widget 의 receiver 등록 및 setting, meta-data 등록
 		android:resource="@xml/lm_widget_provider"/>
 		
 </receiver>
-</code>
-</pre>
+```
 
 JobService 등록
-<pre>
-<code>
+```java
 <service android:name=".SyncJobService"
 	 android:permission="android.permission.BIND_JOB_SERVICE"
 	 android:exported="true"/>
 </receiver>
-</code>
-</pre>
+```
